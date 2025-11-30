@@ -5,6 +5,8 @@
 [![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-orange.svg)](https://www.riverbankcomputing.com/software/pyqt/)
 [![LangChain](https://img.shields.io/badge/LangChain-Latest-yellow.svg)](https://python.langchain.com/)
 
+> 🌏 **[中文文档](README_CN.md)** | **English**
+
 ## 📖 Project Overview
 
 DeepFlow is an intelligent Computational Fluid Dynamics (CFD) assistant system that adopts the "Think-Act" paradigm, integrating OpenFOAM solvers, RAG (Retrieval-Augmented Generation) technology, and a modern graphical user interface. The system aims to break down the high technical barriers in traditional CFD simulations, helping engineers and researchers perform simulation analysis, parameter tuning, result visualization, and problem diagnosis more efficiently through natural language interaction.
