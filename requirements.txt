@@ -1,0 +1,8 @@
+numpy==2.2.6
+pandas==2.3.1
+matplotlib==3.10.3
+wordcloud==1.9.4
+PyQt5==5.15.11
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-openai==0.3.28
