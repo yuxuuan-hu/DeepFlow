@@ -148,7 +148,7 @@ DATABASE_DIR = "/path/to/your/database"
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yuxuuan-hu/DeepFlow.git
    cd DeepFlow
    ```
 2.  **Create Conda Environment**
