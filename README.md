@@ -24,7 +24,7 @@ DeepFlow is an intelligent Computational Fluid Dynamics (CFD) assistant system t
 * 🤖 **Intelligent AI Assistant**: An intelligent dialogue system built on LangChain and large language models, supporting natural language-driven control of the entire simulation workflow.
 * 🔍 **RAG Retrieval System**: Integrates FAISS vector database with professional knowledge bases to ensure the professionalism and accuracy of AI responses.
 * 🖥️ **Modern GUI**: An intuitive graphical interface developed with PyQt5, integrating parameter configuration, solver control, and 3D visualization windows.
-* 📊 **Real-time Monitoring and Post-processing**: Integrates Matplotlib and PyVista, supporting real-time tracking of residual curves and flow rate monitoring.
+* 📊 **Real-time Monitoring and Post-processing**: Integrates Matplotlib and ParaView, supporting real-time tracking of residual curves and flow rate monitoring.
 
 ## 🔄 Agent Workflow
 
@@ -116,7 +116,7 @@ Modify the following configuration in `deepflow_agent/main_gui.py`:
 ```python
 DEFAULT_SETTINGS = {
     "LANGCHAIN_TRACING_V2": "true",
-    "LANGCHAIN_ENDPOINT": "[https://api.smith.langchain.com](https://api.smith.langchain.com)",
+    "LANGCHAIN_ENDPOINT": "https://api.smith.langchain.com",
     "LANGCHAIN_API_KEY": "YOUR_LANGCHAIN_API_KEY",
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY",
     "CUSTOM_API_BASE": "YOUR_CUSTOM_API_BASE",

@@ -22,7 +22,7 @@ DeepFlow 是一个计算流体动力学（CFD）智能助手系统，采用 "Thi
 * 🤖 **智能 AI 助手**: 基于 LangChain 和大型语言模型构建的智能对话系统，支持自然语言驱动的仿真全流程控制。
 * 🔍 **RAG 检索系统**: 集成 FAISS 向量数据库，挂载专业知识库，确保 AI 回答的专业性与准确性。
 * 🖥️ **现代化 GUI**: 基于 PyQt5 开发的直观图形界面，集成了参数配置、求解器控制及 3D 可视化窗口 。
-* 📊 **实时监控与后处理**: 集成 Matplotlib 与 PyVista，支持残差曲线实时跟踪、流率监测。
+* 📊 **实时监控与后处理**: 集成 Matplotlib 与 ParaView，支持残差曲线实时跟踪、流率监测。
 
 ## 🔄 智能体工作流
 
@@ -114,7 +114,7 @@ DeepFlow/
 ```python
 DEFAULT_SETTINGS = {
     "LANGCHAIN_TRACING_V2": "true",
-    "LANGCHAIN_ENDPOINT": "[https://api.smith.langchain.com](https://api.smith.langchain.com)",
+    "LANGCHAIN_ENDPOINT": "https://api.smith.langchain.com",
     "LANGCHAIN_API_KEY": "YOUR_LANGCHAIN_API_KEY",
     "OPENAI_API_KEY": "YOUR_OPENAI_API_KEY",
     "CUSTOM_API_BASE": "YOUR_CUSTOM_API_BASE",
