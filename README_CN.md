@@ -5,6 +5,8 @@
 [![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-orange.svg)](https://www.riverbankcomputing.com/software/pyqt/)
 [![LangChain](https://img.shields.io/badge/LangChain-Latest-yellow.svg)](https://python.langchain.com/)
 
+> 🌏 **[English](README.md)** | **中文**
+
 ## 📖 项目简介
 
 DeepFlow 是一个计算流体动力学（CFD）智能助手系统，采用 "Think-Act" 范式，集成了 OpenFOAM 求解器、RAG（检索增强生成）技术和现代化的图形用户界面。该系统旨在打破传统 CFD 仿真中高专业门槛的壁垒，帮助工程师和研究人员通过自然语言交互，更高效地进行仿真分析、参数调优、结果可视化及问题诊断。
